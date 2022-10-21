@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.boha.datadriver.DatadriverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.867 s - in com.boha.datadriver.DatadriverApplicationTests

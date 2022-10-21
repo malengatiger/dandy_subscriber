@@ -1,0 +1,48 @@
+{
+  "html_attributions": [],
+  "next_page_token": "AcYSjRib43Bz6zHjQzPZc-7zntvhuUSHI-vt0sdjSUMeg2jNU3rnxSVLxlOYRd96dlMpQ_iWxrseTDLrK4vbex6ChGVUW_IJnNKLq3PoIlpLGQSwGTR-RWTH1hPsrUEqAJPHBzMjNnhHQqyLXphVaaHDtnYX-7ZYi9RkXGMqVU06OPbbP1EFWDNtVBbNwcq3bLJfD4smgZEC2oyEd9rKiOrtLM6wGA0CbgMV3ued53EstIww-gWV96sL7PaZNfAa6ObyYuB7wmT5RvgXOeZXE1r8Qq9irJ1i0R__OxVtjl-HJHH9oW5mUS2GuMOWEGWSnTgtZPpy0a5RE_K3frgyuOYw8lRSokBKejjbOWYe0kPYgd_OlQl1XmvLgQqPz-f9EoU_UqbYmoEepIJ2bxLZFQAuMX4aYaH-SNxFhGM6Cs4cmSqa",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": -30.7276956,
+          "lng": 30.447285
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -30.64628505133756,
+            "lng": 30.52734797218434
+          },
+          "southwest": {
+            "lat": -30.78552797370513,
+            "lng": 30.39021301857581
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Port Shepstone",
+      "photos": [
+        {
+          "height": 373,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114225167493940349174\">Mama Africa</a>"
+          ],
+          "photo_reference": "AcYSjRjs0e739ZDaC36W6DK5-dQgLuV9sb_LIUJizWvnNgxprJTwjoMfT94aWzr_dnxIwzvEKlrvpG8KRE56GgtyX1afpsqPQl9gi5Nzpn91_5QlRa68Bla1rfHAArVPzumYJ8VLSbiQSPGFaocp5cTCNdp2Xsv3o_NQG9di2Ia6Mja6mysw",
+          "width": 560
+        }
+      ],
+      "place_id": "ChIJXVMz22ihWB4RO9gkzLPcCZU",
+      "reference": "ChIJXVMz22ihWB4RO9gkzLPcCZU",
+      "scope": "GOOGLE",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "vicinity": "Port Shepstone"
+    },
+
+  ],
+  "status": "OK"
+}

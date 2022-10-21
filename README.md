@@ -1,2 +1,2 @@
-# dandy_subscriber
-Manages subscription to PubSub 
+# dandypipe
+Data Engineering Backend Harness
