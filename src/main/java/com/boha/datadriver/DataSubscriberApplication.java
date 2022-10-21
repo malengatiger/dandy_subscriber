@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationListener;
 
 import java.util.logging.Logger;
 /**
- *
+ * App to subscribe to PubSub
  */
 @SpringBootApplication
 public class DataSubscriberApplication implements ApplicationListener<ApplicationReadyEvent> {
