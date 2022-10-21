@@ -35,7 +35,8 @@ public class EventSubscriber {
                     // Handle incoming message, then ack the received message.
                     Event e = GSON.fromJson(message.getData().toStringUtf8(),Event.class);
                     LOGGER.info(E.AMP+E.AMP+" Received: " + E.PEAR + " Rating: " + e.getRating() +
-                            E.PEAR + " " + e.getCityPlace().name + ", " + e.getCityPlace().cityName);
+                            E.PEAR + " " + e.getCityPlace().name + ", "
+                            + e.getCityPlace().cityName);
 
                     consumer.ack();
                 };
