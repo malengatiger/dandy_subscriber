@@ -1,5 +1,7 @@
 package com.boha.datadriver.models;
-
+/**
+ *
+ */
 public class City {
     private String city, lat,lng,country,iso2,admin_name,population_proper,capital;
     double latitude,longitude;

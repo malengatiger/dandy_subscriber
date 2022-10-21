@@ -15,7 +15,9 @@ import com.google.pubsub.v1.PubsubMessage;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.logging.Logger;
-
+/**
+ *
+ */
 @Service
 public class EventSubscriber {
     static final Logger LOGGER = Logger.getLogger(EventSubscriber.class.getSimpleName());

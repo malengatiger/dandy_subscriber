@@ -10,7 +10,9 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 
 import java.util.logging.Logger;
-
+/**
+ *
+ */
 @SpringBootApplication
 public class DataSubscriberApplication implements ApplicationListener<ApplicationReadyEvent> {
 

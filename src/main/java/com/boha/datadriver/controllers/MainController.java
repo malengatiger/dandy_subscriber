@@ -17,6 +17,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ *
+ */
 @RestController
 public class MainController {
     private static final Logger LOGGER = Logger.getLogger(MainController.class.getSimpleName());
@@ -27,12 +30,13 @@ public class MainController {
 
 
     private final CityService cityService;
+
     @GetMapping("/saveCities")
     private ResponseEntity<Object> saveCities() {
         try {
             List<City> cities = cityService.addCitiesToFirestore();
             LOGGER.info(E.BLUE_HEART+E.BLUE_HEART+E.CHECK+
-                    " MainController Returning " + cities.size() + " cities");
+                    " MainController returning " + cities.size() + " cities");
             return ResponseEntity.ok(cities);
         } catch (IOException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e);

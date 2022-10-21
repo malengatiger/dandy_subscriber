@@ -1,5 +1,7 @@
 package com.boha.datadriver.util;
-
+/**
+ *
+ */
 public class E {
     public static final String GREEN_APPLE = "\uD83C\uDF4F"; //🍏
     public static final String RED_APPLE = "\uD83C\uDF4E"; //🍎

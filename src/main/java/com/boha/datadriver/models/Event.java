@@ -1,5 +1,7 @@
 package com.boha.datadriver.models;
-
+/**
+ *
+ */
 public class Event {
     private String eventId;
     private String date;
