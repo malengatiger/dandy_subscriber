@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
-
+.env
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+src/main/resources/application.properties
 # Log file
 *.log
 
